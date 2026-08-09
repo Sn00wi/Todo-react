@@ -4,7 +4,7 @@ import tasksAPI from "@/shared/api/tasks"
 const TaskPage = (props) => {
     const { params } = props
     const taskId = params.id
-
+    console.log('1')
     const [task, setTask] = useState(null)
     const [isLoading, setIsLoading] = useState(true)
     const [hasError, setHasError] = useState(false)
